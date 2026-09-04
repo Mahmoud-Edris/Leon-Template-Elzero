@@ -3,191 +3,323 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leon</title>
     <link rel="stylesheet" href="CSS/main.css" />
-    <link rel="stylesheet" href="CSS/all.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <title>Leon</title>
   </head>
   <body>
+    <!-- Start Header -->
     <header>
-      <img src="Assets/logo.png" alt="Our Logo" />
-      <div class="links">
-        <span></span>
-        <span class="small"></span>
-        <span></span>
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <hr />
-          <li><a href="#portfolio">Portfolio</a></li>
-          <hr />
-          <li><a href="#about">About</a></li>
-          <hr />
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div class="container">
+        <div>
+          <img src="Assets/Images/logo.png" alt="Our Icon" loading="eager" />
+        </div>
+        <nav>
+          <span></span>
+          <span class="middle-line"></span>
+          <span></span>
+          <ul>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
+    <!-- End Header -->
     <main>
       <section id="hero">
-        <div class="welcome">
-          <h1>Hello There</h1>
-          <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        <div>
+          <span>Hello There</span>
+          <h1>We are Leon - Super Creative & Minimal Agency Web Template</h1>
         </div>
       </section>
+      <!-- Start Features -->
       <section id="features">
-        <div>
-          <i class="fas fa-magic fa-3x"></i>
-          <h3>Tell Us Your Idea</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut lab
-          </p>
-        </div>
-        <div>
-          <i class="far fa-gem fa-3x"></i>
-          <h3>We Will Do All The Work</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut lab
-          </p>
-        </div>
-        <div class="last-one">
-          <i class="fas fa-globe-asia fa-3x"></i>
-          <h3>Your Product Is Worldwide</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut lab
-          </p>
+        <div class="container">
+          <div class="feature">
+            <span>
+              <svg class="icon icon-magic">
+                <use xlink:href="#icon-magic"></use>
+                <symbol id="icon-magic" viewBox="0 0 32 32">
+                  <path
+                    d="M14 6l1-2 2-1-2-1-1-2-1 2-2 1 2 1zM5 10l1.666-3.333 3.334-1.667-3.334-1.667-1.666-3.333-1.666 3.333-3.334 1.667 3.334 1.667zM27 18l-1.666 3.333-3.334 1.667 3.334 1.667 1.666 3.333 1.666-3.333 3.334-1.667-3.334-1.667zM31.414 5.889l-5.303-5.303c-0.39-0.391-0.902-0.586-1.414-0.586s-1.024 0.195-1.414 0.586l-22.696 22.696c-0.781 0.781-0.781 2.047 0 2.828l5.303 5.303c0.391 0.391 0.902 0.586 1.414 0.586s1.024-0.195 1.414-0.586l22.696-22.697c0.781-0.78 0.781-2.047 0-2.828zM22.466 12.716l-3.182-3.182 5.413-5.412 3.182 3.182z"
+                  ></path>
+                </symbol>
+              </svg>
+            </span>
+            <h3>Tell Us Your Idea</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut lab
+            </p>
+          </div>
+          <div class="feature">
+            <span>
+              <svg class="icon icon-gem">
+                <use xlink:href="#icon-gem"></use>
+                <symbol id="icon-gem" viewBox="0 0 36 32">
+                  <path
+                    d="M29 0h-22c-0.25 0-0.487 0.125-0.625 0.338l-6.25 9.2c-0.181 0.275-0.163 0.637 0.044 0.887l17.25 21.3c0.3 0.369 0.863 0.369 1.163 0l17.25-21.3c0.206-0.256 0.225-0.613 0.044-0.887l-6.244-9.2c-0.144-0.212-0.375-0.338-0.631-0.338zM27.794 3l3.956 6h-4.275l-3.231-6zM15.162 3h5.669l3.231 6h-12.125zM8.206 3h3.55l-3.231 6h-4.275zM5.519 12h3.212l4.269 10zM11.95 12h12.1l-6.050 15.206zM23 22l4.262-10h3.212z"
+                  ></path>
+                </symbol>
+              </svg>
+            </span>
+            <h3>We Will Do All The Work</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut lab
+            </p>
+          </div>
+          <div class="feature">
+            <span>
+              <svg class="icon icon-world">
+                <use xlink:href="#icon-world"></use>
+                <symbol id="icon-world" viewBox="0 0 31 32">
+                  <path
+                    d="M15.5 0.5c-8.561 0-15.5 6.939-15.5 15.5s6.939 15.5 15.5 15.5 15.5-6.939 15.5-15.5-6.939-15.5-15.5-15.5zM14.791 15.514c-0.181 0.301-0.506 0.486-0.857 0.486h-0.019c-0.265 0-0.519 0.106-0.707 0.293l-0.354 0.354c-0.195 0.195-0.195 0.512 0 0.707l0.354 0.354c0.188 0.188 0.293 0.442 0.293 0.707v0.586c0 0.552-0.447 1-1 1h-0.382c-0.379 0-0.725-0.214-0.894-0.553l-1.414-2.827c-0.152-0.305-0.559-0.371-0.801-0.13l-1.217 1.216c-0.188 0.188-0.442 0.293-0.707 0.293h-3.911c-0.106-0.652-0.176-1.317-0.176-1.999 0-6.893 5.607-12.5 12.5-12.5 1.344 0 2.638 0.219 3.852 0.614l-3.135 2.408c-0.319 0.213-0.289 0.691 0.054 0.863l0.677 0.338c0.339 0.169 0.552 0.516 0.552 0.894v4.883c0 0.276-0.224 0.5-0.5 0.5h-0.191c-0.189 0-0.363-0.107-0.447-0.276-0.098-0.195-0.373-0.206-0.485-0.019zM25.5 22.402c0 0.265-0.106 0.519-0.293 0.707l-0.598 0.598c-0.188 0.188-0.442 0.293-0.707 0.293h-0.948c-0.265 0-0.519-0.106-0.707-0.293l-0.813-0.813c-0.303-0.303-0.721-0.49-1.183-0.49-0.144 0-0.284 0.018-0.417 0.052l0.012-0.003-1.329 0.332c-0.079 0.020-0.161 0.030-0.242 0.030h-0.646c-0.265 0-0.519-0.106-0.707-0.293l-0.744-0.744c-0.090-0.090-0.146-0.215-0.146-0.353 0-0 0-0 0-0v0-0.637c0-0.204 0.124-0.388 0.314-0.464l2.459-0.984c0.124-0.049 0.241-0.114 0.349-0.191l1.482-1.056c0.081-0.058 0.181-0.093 0.29-0.093 0 0 0 0 0 0h0.756c0.202 0 0.384 0.121 0.462 0.308l0.334 0.803c0.039 0.091 0.127 0.154 0.231 0.154h0.238c0.111 0 0.209-0.074 0.24-0.18l0.262-0.904c0.031-0.107 0.129-0.18 0.24-0.18h0.379c0.138 0 0.25 0.112 0.25 0.25v0.808c0 0.133 0.052 0.26 0.146 0.354l0.744 0.744c0.188 0.188 0.293 0.442 0.293 0.707v1.538z"
+                  ></path>
+                </symbol>
+              </svg>
+            </span>
+            <h3>Your Product is Worldwide</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut lab
+            </p>
+          </div>
         </div>
       </section>
+      <!-- End Features -->
+      <!-- Start Services -->
       <section id="services">
-        <div class="section-header">
-          <h2>Services</h2>
-          <p>Don't be busy, be productive</p>
-        </div>
-        <div>
-          <i class="fas fa-palette fa-2x"></i>
-          <div class="text">
-            <h3>Graphic Design</h3>
-            <p>
-              Graphic design is the process of visual communication and
-              problem-solving using one or more of typography, photography and
-              illustration.
-            </p>
+        <div class="container">
+          <header class="sec-header">
+            <h2>Services</h2>
+            <p>Don't be busy, be productive</p>
+          </header>
+          <div class="column">
+            <div class="service">
+              <span>
+                <svg class="icon icon-palette">
+                  <use xlink:href="#icon-palette"></use>
+                  <symbol id="icon-palette" viewBox="0 0 32 32">
+                    <path
+                      d="M12.769 0.313c-6.213 1.212-11.219 6.206-12.444 12.4-2.313 11.687 8.231 20.4 16.175 19.169 2.575-0.4 3.837-3.413 2.656-5.731-1.444-2.837 0.619-6.15 3.806-6.15h4.981c2.238 0 4.050-1.85 4.056-4.081-0.031-9.85-8.994-17.6-19.231-15.606zM6 20c-1.106 0-2-0.894-2-2s0.894-2 2-2 2 0.894 2 2-0.894 2-2 2zM8 12c-1.106 0-2-0.894-2-2s0.894-2 2-2 2 0.894 2 2-0.894 2-2 2zM16 8c-1.106 0-2-0.894-2-2s0.894-2 2-2 2 0.894 2 2-0.894 2-2 2zM24 12c-1.106 0-2-0.894-2-2s0.894-2 2-2 2 0.894 2 2-0.894 2-2 2z"
+                    ></path>
+                  </symbol>
+                </svg>
+              </span>
+              <div class="text">
+                <h3>Graphic Design</h3>
+                <p>
+                  Graphic design is the process of visual communication and
+                  problem-solving using one or more of typography, photography
+                  and illustration.
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <span>
+                <svg class="icon icon-filled-gem">
+                  <use xlink:href="#icon-filled-gem"></use>
+                  <symbol id="icon-filled-gem" viewBox="0 0 36 32">
+                    <path
+                      d="M30.344 0l5.656 10h-6.319l-4.325-10zM22.344 0l4.325 10h-17.337l4.325-10zM5.656 0h4.988l-4.325 10h-6.319zM0 12h6.294l7.687 15.731c0.094 0.194-0.169 0.369-0.313 0.206zM9.262 12h17.475l-8.563 19.887c-0.063 0.15-0.281 0.15-0.344 0zM22.019 27.731l7.688-15.731h6.294l-13.669 15.931c-0.144 0.169-0.406-0.006-0.313-0.2z"
+                    ></path>
+                  </symbol>
+                </svg>
+              </span>
+              <div class="text">
+                <h3>UI & UX</h3>
+                <p>
+                  Process of enhancing user satisfaction with a product by
+                  improving the usability, accessibility, and pleasure provided
+                  in the interaction
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div>
-          <i class="fab fa-sketch fa-2x"></i>
-          <div class="text">
-            <h3>UI & UX</h3>
-            <p>
-              Process of enhancing user satisfaction with a product by improving
-              the usability, accessibility, and pleasure provided in the
-              interaction.
-            </p>
+          <div class="column">
+            <div class="service">
+              <span>
+                <svg class="icon icon-vector-square">
+                  <use xlink:href="#icon-vector-square"></use>
+                  <symbol id="icon-vector-square" viewBox="0 0 32 32">
+                    <path
+                      d="M32 8v-6c0-1.104-0.896-2-2-2h-6c-1.104 0-2 0.896-2 2h-12c0-1.104-0.896-2-2-2h-6c-1.104 0-2 0.896-2 2v6c0 1.104 0.896 2 2 2v12c-1.104 0-2 0.896-2 2v6c0 1.104 0.896 2 2 2h6c1.104 0 2-0.896 2-2h12c0 1.104 0.896 2 2 2h6c1.104 0 2-0.896 2-2v-6c0-1.104-0.896-2-2-2v-12c1.104 0 2-0.896 2-2zM26 4h2v2h-2zM4 4h2v2h-2zM6 28h-2v-2h2zM28 28h-2v-2h2zM26 22h-2c-1.104 0-2 0.896-2 2v2h-12v-2c0-1.104-0.896-2-2-2h-2v-12h2c1.104 0 2-0.896 2-2v-2h12v2c0 1.104 0.896 2 2 2h2z"
+                    ></path>
+                  </symbol>
+                </svg>
+              </span>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  Web design encompasses many different skills and disciplines
+                  in the production and maintenance of websites.
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <span>
+                <svg class="icon icon-pencil">
+                  <use xlink:href="#icon-pencil"></use>
+                  <symbol id="icon-pencil" viewBox="0 0 32 32">
+                    <path
+                      d="M6.841 15.252l8.411-8.41-2.758-2.758-3.855 3.855c-0.090 0.090-0.213 0.145-0.35 0.145s-0.261-0.056-0.35-0.145v0l-0.701-0.701c-0.194-0.194-0.194-0.508 0-0.701l3.855-3.855-2.103-2.103c-0.774-0.774-2.029-0.774-2.804 0l-5.607 5.607c-0.774 0.774-0.774 2.029 0 2.804zM31.121 7.952c1.173-1.173 1.172-3.073 0-4.246l-2.828-2.828c-1.172-1.173-3.074-1.173-4.247 0l-2.876 2.876 7.075 7.075zM19.755 5.169l-18.563 18.56-1.173 6.715c-0.158 0.906 0.631 1.694 1.537 1.535l6.716-1.177 18.557-18.558zM31.419 23.009l-2.102-2.102-3.855 3.855c-0.194 0.194-0.508 0.194-0.701 0l-0.701-0.701c-0.193-0.194-0.193-0.508 0-0.701l3.855-3.855-2.759-2.759-8.411 8.41 6.263 6.262c0.774 0.774 2.029 0.774 2.804 0l5.607-5.606c0.774-0.774 0.774-2.029 0-2.804z"
+                    ></path>
+                  </symbol>
+                </svg>
+              </span>
+              <div class="text">
+                <h3>Web Development</h3>
+                <p>
+                  Web development is a broad term for the work involved in
+                  developing a web site for the Internet or an intranet.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div>
-          <i class="fas fa-pencil-ruler fa-2x"></i>
-          <div class="text">
-            <h3>Web Design</h3>
-            <p>
-              Web design encompasses many different skills and disciplines in
-              the production and maintenance of websites.
-            </p>
+          <div class="image" aria-hidden="true">
+            <img src="Assets/Images/services.jpg" alt="" loading="lazy" />
           </div>
-        </div>
-        <div>
-          <i class="fas fa-pencil-ruler fa-2x"></i>
-          <div class="text">
-            <h3>Web Development</h3>
-            <p>
-              Web development is a broad term for the work involved in
-              developing a web site for the Internet or an intranet.
-            </p>
-          </div>
-        </div>
-        <div class="services-image">
-          <img src="Assets/services.jpg" alt="" />
         </div>
       </section>
+      <!-- End Services -->
+      <!-- Start Portfolio -->
       <section id="portfolio">
-        <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>If you do it right, it will last forever</p>
-        </div>
-        <div>
-          <img src="Assets/portfolio-1.jpg" alt="Project 1" />
-          <div class="text">
-            <h3>Project here</h3>
-            <p>
-              My creative ability is very difficult to measure because it can
-              manifest in so many surprising and.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src="Assets/portfolio-2.jpg" alt="Project 2" />
-          <div class="text">
-            <h3>Project here</h3>
-            <p>
-              My creative ability is very difficult to measure because it can
-              manifest in so many surprising and.
-            </p>
-          </div>
-        </div>
-        <div class="last-one">
-          <img src="Assets/portfolio-3.jpg" alt="Project 3" />
-          <div class="text">
-            <h3>Project here</h3>
-            <p>
-              My creative ability is very difficult to measure because it can
-              manifest in so many surprising and.
-            </p>
-          </div>
+        <div class="container">
+          <header class="sec-header">
+            <h2>Portfolio</h2>
+            <p>If you do it right, it will last forever.</p>
+          </header>
+          <figure class="project">
+            <img
+              src="Assets/Images/portfolio-1.jpg"
+              alt="Project photo"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              src="Assets/Images/portfolio-2.jpg"
+              alt="Project photo"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="project">
+            <img
+              src="Assets/Images/portfolio-3.jpg"
+              alt="Project photo"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </figcaption>
+          </figure>
         </div>
       </section>
+      <!-- End Portfolio -->
+      <!-- STart About -->
       <section id="about">
-        <div class="section-header">
-          <h2>About</h2>
-          <p>Less is more work</p>
-        </div>
-        <div class="about-img">
-          <img src="Assets/about.jpg" alt="basic picture" />
-        </div>
-        <div>
-          <p class="bold-lorem">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo
-            neque voluptate tempora velit cum non, fuga vitae architecto
-            delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi
-            iusto laudantium!
-          </p>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-            sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum
-            officiis dolorum hic voluptate quaerat minima, similique inventore
-            esse, alias, sed quo officia?
-          </p>
+        <div class="container">
+          <header class="sec-header">
+            <h2>About</h2>
+            <p>Less Is More Work</p>
+          </header>
+          <div class="image" aria-hidden="true">
+            <img src="Assets/Images/about.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="text-column">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              nemo neque voluptate tempora velit cum non, fuga vitae architecto
+              delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi
+              iusto laudantium!
+            </p>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum
+              officiis dolorum hic voluptate quaerat minima, similique inventore
+              esse, alias, sed quo officia?
+            </p>
+          </div>
         </div>
       </section>
+      <!-- End About -->
+      <!-- Start Contact -->
       <section id="contact">
-        <div class="section-header">
-          <h2>Contact</h2>
-          <p>We are born to create</p>
-        </div>
-        <div class="text">
-          <p>Fell free to drop us line at:</p>
-          <p><a href="#">leonagency@gmail.com</a></p>
-          <p>
-            Find Us On Social Networks <i class="fab fa-youtube"></i
-            ><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i>
-          </p>
+        <div class="container">
+          <header class="sec-header">
+            <h2>Contact</h2>
+            <p>We are born to create</p>
+          </header>
+          <div class="links">
+            <h3>Feel free to drop us a line at:</h3>
+            <a href="mailto:leonagency@example.com">leonagency@mail.com </a>
+            <p>
+              Find Us On Social Networks
+              <svg class="icon icon-youtube">
+                <use xlink:href="#icon-youtube"></use>
+                <symbol id="icon-youtube" viewBox="0 0 36 32">
+                  <path
+                    d="M34.353 7.755c-0.393-1.478-1.549-2.642-3.018-3.037-2.662-0.718-13.336-0.718-13.336-0.718s-10.674 0-13.336 0.718c-1.469 0.395-2.625 1.559-3.018 3.037-0.713 2.679-0.713 8.269-0.713 8.269s0 5.59 0.713 8.269c0.393 1.478 1.549 2.594 3.018 2.989 2.662 0.718 13.336 0.718 13.336 0.718s10.674 0 13.336-0.718c1.469-0.395 2.625-1.511 3.018-2.989 0.713-2.679 0.713-8.269 0.713-8.269s0-5.59-0.713-8.269zM14.509 21.099v-10.15l8.921 5.075z"
+                  ></path>
+                </symbol>
+              </svg>
+              <svg class="icon icon-facebook">
+                <use xlink:href="#icon-facebook"></use>
+                <symbol id="icon-facebook" viewBox="0 0 20 32">
+                  <path
+                    d="M17.446 18l0.889-5.791h-5.557v-3.758c0-1.584 0.776-3.129 3.265-3.129h2.526v-4.931s-2.293-0.391-4.484-0.391c-4.576 0-7.567 2.774-7.567 7.795v4.414h-5.087v5.791h5.087v14h6.261v-14z"
+                  ></path>
+                </symbol>
+              </svg>
+              <svg class="icon icon-twitter">
+                <use xlink:href="#icon-twitter"></use>
+                <symbol id="icon-twitter" viewBox="0 0 32 32">
+                  <path
+                    d="M28.711 9.482c0.020 0.284 0.020 0.569 0.020 0.853 0 8.67-6.599 18.66-18.66 18.66-3.716 0-7.168-1.076-10.071-2.944 0.528 0.061 1.036 0.081 1.584 0.081 3.066 0 5.888-1.035 8.142-2.802-2.883-0.061-5.3-1.949-6.132-4.548 0.406 0.061 0.812 0.102 1.239 0.102 0.589 0 1.178-0.081 1.726-0.223-3.005-0.609-5.259-3.249-5.259-6.437v-0.081c0.873 0.487 1.888 0.792 2.964 0.832-1.766-1.178-2.924-3.188-2.924-5.462 0-1.218 0.325-2.335 0.893-3.31 3.228 3.98 8.081 6.579 13.523 6.863-0.101-0.487-0.162-0.995-0.162-1.502 0-3.614 2.924-6.558 6.558-6.558 1.888 0 3.594 0.792 4.792 2.071 1.482-0.284 2.904-0.832 4.162-1.584-0.487 1.523-1.523 2.802-2.883 3.614 1.32-0.142 2.599-0.508 3.777-1.015-0.893 1.299-2.010 2.457-3.289 3.391z"
+                  ></path>
+                </symbol>
+              </svg>
+            </p>
+          </div>
         </div>
       </section>
+      <!-- End Contact -->
     </main>
     <footer>
       <p>&copy; 2021 <span>Leon</span> All Right Reserved</p>
