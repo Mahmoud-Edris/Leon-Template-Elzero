@@ -191,7 +191,7 @@ nav:hover ul {
 #hero {
   width: 100%;
   height: calc(100vh - 60px);
-  background-image: url(../Assets/Images/landing.jpg);
+  background-image: url(../Assets/images/landing.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
